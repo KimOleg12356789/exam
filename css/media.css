@@ -1,0 +1,478 @@
+
+
+@media screen and (max-width: 1600px) {
+	.work-img {
+	    margin: 0 0px 0 -8px;
+	}
+
+	.work:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 440px;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0C9548;
+	    border-radius: 0px 100px 100px 0px;
+	}
+
+	.telega:before {
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #5CB1EA 0%, rgba(30, 135, 205, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #1E87CD;
+	    border-radius: 0px 100px 100px 0px;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 15px;
+	    position: absolute;
+	    content: '';
+	}
+
+	.vopros:before {
+	    position: absolute;
+	    content: '';
+	    background: #FFFFFF url(../images/vopros.png) 100% 0 no-repeat;
+	    border-radius: 100px 0px 0px 100px;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 5px;
+	}
+}
+
+@media screen and (max-width: 1470px) {
+	.work:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 350px;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0C9548;
+	    border-radius: 0px 100px 100px 0px;
+	}
+}
+
+
+@media screen and (max-width: 1370px) {
+	.work-title {
+	    font-weight: 700;
+	    font-size: 40px;
+	    line-height: 60px;
+	    text-transform: uppercase;
+	}
+
+	.work:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 330px;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0C9548;
+	    border-radius: 0px 100px 100px 0px;
+	}
+
+	.vopros-block {
+	    width: 50%;
+	    margin: 0 20px 0 0;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.telega-img {
+	    margin: -269px 0 -106px 0;
+	}
+
+	.telega:after {
+		display: none;
+	}
+}
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	.work-block {
+	    width: 60%;
+	}
+
+	.work-block2 {
+	    width: 40%;
+	}
+
+	.work:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 230px;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0C9548;
+	    border-radius: 0px 100px 100px 0px;
+	}
+
+	.noveyshee-block {
+	    width: 60%;
+	}
+
+	.noveyshee-block2 {
+	    width: 40%;
+	}
+
+	.prem-wrap {
+		flex-wrap: wrap;
+		padding: 20px 0 0 0;
+	}
+
+	.prem-block {
+		width: 50%;
+		padding: 15px 15px 0 15px;
+	}
+
+	.prem:before {
+		display: none;
+	}
+
+	.polezno-border {
+	    background: #FFFFFF;
+	    border-radius: 30px;
+	    padding: 20px 20px;
+	    height: 100%;
+	}
+
+	.telega:before {
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #5CB1EA 0%, rgba(30, 135, 205, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #1E87CD;
+	    border-radius: 0px 100px 100px 0px;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 5px;
+	    position: absolute;
+	    content: '';
+	}
+
+	.telega-img {
+	    margin: -183px 0 -108px 0px;
+	}
+
+	.telega {
+	    position: relative;
+	    margin: 140px 0 0 0;
+	    padding: 110px 0 100px 0;
+	}
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	.work-wrap {
+		flex-wrap: wrap;
+	}
+
+	.work-block {
+		width: 100%;
+	}
+
+	.work-block2 {
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+
+	.work {
+	    padding: 60px 0;
+	    position: relative;
+	}
+
+	.work-img {
+		margin: 0;
+		text-align: center;
+	}
+
+	.work:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 5px;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0C9548;
+	    border-radius: 0px 100px 100px 0px;
+	}
+
+	.work-inner {
+		margin: 30px 0 0 0;
+	}
+
+	.podrobno {
+	    margin: 60px 0 0 0;
+	}
+
+	.podrobno-title {
+	    font-weight: 700;
+	    font-size: 35px;
+	    line-height: 40px;
+	    text-transform: uppercase;
+	}
+
+	.podrobno-container {
+		padding: 0;
+	}
+
+	.podrobno-overflo {
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	.podrobno-overflo::-webkit-scrollbar {
+	  width: 0px;
+	  height: 0px;
+	}
+
+	.podrobno-overflo::-moz-scrollbar {
+	  width: 0px;
+	  height: 0px;
+	}
+
+	.podrobno-overflo::-o-scrollbar {
+	  width: 0px;
+	  height: 0px;
+	}
+
+	.podrobno-img {
+		width: 1054px;
+		padding: 0 15px;
+	}
+
+	.noveyshee {
+	    margin: 60px 0 0 0;
+	    padding: 60px 0;
+	    background: #fff url(../images/noveyshee.png) 0 0 no-repeat;
+	}
+
+	.noveyshee-title br {
+		display: none;
+	}
+
+	.noveyshee-suptitle {
+	    margin: 20px 0 0 0;
+	    font-weight: 500;
+	    font-size: 18px;
+	    line-height: 22px;
+	    color: #1F2A37;
+	}
+
+	.noveyshee-li p {
+	    font-weight: 400;
+	    font-size: 16px;
+	    line-height: 20px;
+	    color: #1F2A37;
+	    margin: 0 0 0 10px;
+	    width: 95%;
+	}
+
+	.prem {
+	    position: relative;
+	    padding: 60px 0;
+	    background: radial-gradient(36.28% 88.26% at 12.03% 0%, #35C273 0%, rgba(12, 149, 72, 0) 100%), #0C9548;
+	}
+
+	.prem-border {
+	    background: rgba(255, 255, 255, 0.05);
+	    border-radius: 30px;
+	    height: 100%;
+	    padding: 20px 20px;
+	}
+
+	.polezno {
+	    margin: 60px 0 0 0;
+	}
+
+	.telega-wrap {
+		flex-wrap: wrap;
+	}
+
+	.telega-block {
+		width: 100%;
+	}
+
+	.telega-block2 {
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+
+	.telega-img {
+		margin: 0 0 -8px 0;
+		text-align: center;
+	}
+
+	.telega {
+		margin: 60px 0 0 0;
+		padding: 60px 0 0 0;
+	}
+
+	.vopros:before {
+	    position: absolute;
+	    content: '';
+	    background: #FFFFFF;
+	    border-radius: 100px 0px 0px 100px;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 5px;
+	}
+
+	.vopros {
+	    margin: 60px 0 0 0;
+	    padding: 47px 0;
+	    position: relative;
+	}
+
+	.vopros-wrap {
+		flex-wrap: wrap;
+	}
+
+	.vopros-block {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+	.vopros-block2 {
+		width: 100%;
+	}
+
+	.vopros-title br {
+		display: none;
+	}
+
+
+	  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+  
+}
+
+@media screen and (max-width: 900px) {
+	.noveyshee-wrap {
+		flex-wrap: wrap;
+	}
+
+	.noveyshee-block {
+		width: 100%;
+	}
+
+	.noveyshee-block2 {
+		width: 100%;
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+
+	.noveyshee {
+	    margin: 60px 0 0 0;
+	    padding: 60px 0;
+	    background: #fff;
+	}
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.work-title {
+	    font-weight: 700;
+	    font-size: 35px;
+	    line-height: 40px;
+	    text-transform: uppercase;
+	}
+
+	.work-suptitle {
+	    margin: 10px 0 0 0;
+	    font-weight: 400;
+	    font-size: 16px;
+	    line-height: 20px;
+	    color: #FFFFFF;
+	}
+
+	.podrobno-title {
+	    font-weight: 700;
+	    font-size: 30px;
+	    line-height: 35px;
+	    text-transform: uppercase;
+	}
+
+	.polezno-wrap {
+		flex-wrap: wrap;
+		padding: 20px 0 0 0;
+	}
+
+	.polezno-block {
+		width: 100%;
+		padding: 15px 15px 0 15px;
+	}
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	.prem-block {
+		width: 100%;
+	}
+
+	.vopros-inner {
+		flex-wrap: wrap;
+	}
+
+	.vopros-inner-block {
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.work-inner {
+		flex-wrap: wrap;
+	}
+
+	.work-input {
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+
+	.work-button {
+		width: 100%;
+	}
+
+	.work-title {
+	    font-weight: 700;
+	    font-size: 30px;
+	    line-height: 35px;
+	    text-transform: uppercase;
+	}
+
+	.podrobno-title {
+	    font-weight: 700;
+	    font-size: 25px;
+	    line-height: 30px;
+	    text-transform: uppercase;
+	}
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
