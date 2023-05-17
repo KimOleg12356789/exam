@@ -3209,8 +3209,8 @@ a.link2.is {
 
 .work-title {
 	font-weight: 700;
-	font-size: 45px;
-	line-height: 65px;
+	font-size: 33px;
+	line-height: 52px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
@@ -3218,7 +3218,7 @@ a.link2.is {
 .work-suptitle {
 	margin: 10px 0 0 0;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
 	color: #FFFFFF;
 }
@@ -3312,7 +3312,7 @@ a.link2.is {
 
 .podrobno-title {
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 33px;
 	line-height: 58px;
 	text-transform: uppercase;
 	color: #1F2A37;
@@ -3374,7 +3374,7 @@ a.link2.is {
 .noveyshee-suptitle {
 	margin: 20px 0 0 0;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 21px;
 	line-height: 35px;
 	color: #1F2A37;
 }
@@ -3399,7 +3399,7 @@ a.link2.is {
 
 .noveyshee-li p {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 26px;
 	color: #1F2A37;
 	margin: 0 0 0 10px;
@@ -3461,7 +3461,7 @@ a.link2.is {
 .prem-border-title {
 	margin: 30px 0 0 0;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 30px;
 	color: #FFFFFF;
 }
@@ -3469,7 +3469,7 @@ a.link2.is {
 .prem-border-suptitle {
 	margin: 5px 0 0 0;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #FFFFFF;
 }
@@ -3508,7 +3508,7 @@ a.link2.is {
 .polezno-border-title {
 	margin: 30px 0 0 0;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 24px;
 	text-align: center;
 	color: #1F2A37;
@@ -3676,8 +3676,8 @@ a.link2.is {
 	width: 95%;
 	margin: 0 0 0 10px;
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 26px;
+	font-size: 16px;
+	line-height: 28px;
 	color: #1F2A37;
 }
 
